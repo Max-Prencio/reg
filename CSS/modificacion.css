@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: rale;
+}
+h2,h4{
+	text-transform: uppercase;
+	color: #444;
+	font-family: rale;
+	letter-spacing: 1px;
+}
+h2{
+	font-size: 26px;
+	color: #333;
+	text-align: center;
+}
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+p{
+	color: #888;
+	font-family: Lato, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+.dos-comumnas{
+	margin-top: 50px;
+}
+.formulario{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color: #999;
+}
+.caja-1{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 14px;
+	margin: 20px;
+}
+.caja-2{
+	width:545px;
+	height: 100px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+.boton-contratar{
+	margin-bottom: 25px;
+	
+}
+.contratar-a{
+	background: #85c34a;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px; 
+	letter-spacing: 1px;
+	width: 90%;
+}
+.contratar-a:hover{
+	background: #777;
+}
+.destacado h4{
+	color:#30353c;
+	font-size: 30px;
+}
+.destacado .contratar-a{
+	background:#30353c;
+}
+.destacado .contratar-a:hover{
+	background:#777;
+}
+.correr{
+	margin:20px 20px;
+	padding: 10px;
+}
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+	
+}
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 2px;
+	margin-right: 5px;
+}
+.datos-contacto li i {
+	color: #85c34a;
+	font-size: 50px;
+	box-sizing:border-box;
+}
+.limpia{
+	clear: both;
+}
+footer{
+	clear: both;
+	margin-top: 50px;
+	background: #000;
+	color: #85c34a;
+	text-align: center;
+	padding: 30px;
+}
+
+}

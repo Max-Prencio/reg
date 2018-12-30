@@ -1,0 +1,251 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: ARIAL;
+}
+
+span{
+
+}
+span::after{ /* #fffcd6 */
+
+}
+
+p a{/* #184DA8 */
+
+}
+
+.center-align{
+	margin: 0;
+	width: 1100px;
+}
+.color-black{color: black;}
+.color-white{color: white;}
+
+.section-columns{}
+
+.section-columns > div{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+.section-columns h2{
+font-size: 72px;
+}
+#intro-contrainer.section-columns h2{
+	padding-top: : 120px;
+	padding-bottom: 30px;
+}
+
+.section-columns h3{
+	font-size: 26px;
+	font-weight: lighter;
+	line-height: 40px;
+}
+.section-columns p{
+	font-weight: lighter;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.section-columns #image-bg{
+	background-image:url('../IMAGENES/m&c.jpg');
+	background-repeat: no-repeat;
+	background-size: 750px;
+	background-position: -100px -08px;
+	height: 600px;
+}
+
+.section-columns #image-bg-02{
+	background-image:url('../IMAGENES/camioneta.jpg');
+	background-repeat: no-repeat;
+	background-size: 750px;
+	background-position: -100px -08px;
+	height: 600px;
+}
+
+.section-columns #bio{
+	height: 600px;
+}
+
+#work,#work02,#work03,#work04{
+	margin-top: -50px;
+	padding-top: 150px;
+
+	background-repeat: no-repeat;
+	background-size: 750px;
+	background-position: right center;
+	height: 600px;
+	#work  {background-image: url('../IMAGENES/camioneta.jpg');}
+	#work02{background-image: url('../IMAGENES/camioneta.jpg');}
+	#work03{background-image: url('../IMAGENES/camioneta.jpg');}
+	#work04{background-image: url('../IMAGENES/camioneta.jpg');}
+}
+
+.rectangle{
+	height: 100px;
+	margin-top: -50px;
+}
+.bg-white{
+	background-color: white;
+}
+.bg-gray{
+	background-color: gray;
+}
+*{
+  list-style: none;
+}
+.controls{
+  width:100%;
+  padding:0px;
+
+}
+.skew-left{
+	transform: skewY(-4deg);
+}
+.skew-right{
+	transform: skewY(4deg);
+}
+
+.btn{
+	border: solid 1px;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+.btn-black{
+	border-color: black;
+	color: black;
+}
+.btn-black:hover{
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+
+.btn-white{
+	border-color: white;
+	color: white;
+}
+.btn-white:hover{
+	background-color: white;
+	border-color: black;
+	color: black;
+}
+
+#intro-container{
+	background-color: black;
+	padding-top: 70px;
+}
+
+#intro-container menu div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#intro-container menu #logo{
+}
+
+#intro-container menu #menu-lista{
+  display: inline-block;
+	width: 89%;
+	text-align: right;
+}
+#intro-container menu #menu-lista ul{
+  display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#intro-container menu #menu-lista ul li{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#intro-container menu #menu-lista ul li a{
+  display: inline-block;
+	color: #777;
+	text-decoration: none;
+}
+input[type="submit"]{
+   margin-bottom:0;
+   background:#1668C4;
+   color: #fff;
+   border:none;
+   margin-bottom:20px;
+   width:75%;
+   padding:10px;
+   margin: 10px;
+}
+input{
+  margin:15px;
+  margin-bottom:2px;
+	width:25%;
+	padding:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input[type="submit"]:hover{
+  color:#fff;
+  Background:#4A88F4;
+  cursor:pointer;
+
+}
+#intro-container menu #menu-lista ul li a:hover{
+  display: inline-block;
+	color: white;
+	text-decoration: underline;
+}
+.volver{
+  background: #000;
+  color:#fff;
+  padding: 10px;
+  margin 10px;
+}
+a li{
+  display: inline-block;
+	text-decoration: none;
+	color:#fff;
+	list-style: none;
+}
+a{
+  border:1px solid #fff;
+  margin:0;
+  padding:0;
+  display:inline-block;
+	text-decoration: none;
+	color:#fff;
+	list-style: none;
+}
+header{
+	width: 100%;
+
+ list-style: none;
+	display:block;
+	background:#000;
+	color:#fff;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	border: 1px solid #fff;
+}
+
+header a:hover{
+  list-style: none;
+	background:#474747;
+	text-decoration:none;
+}
+header a{
+	padding:10px 20px;
+display: inline-block;
+}
+header li{
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+}
+div  header{
+  display: inline-block;
+
+}

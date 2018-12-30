@@ -1,0 +1,14 @@
+a {
+Background:#000;
+color:#fff;
+Text-align:center;
+margin:10px;
+padding:10px;
+width: 100px;
+}
+div a:hover{
+  border: 1px solid #000;
+  background:#fff;
+  color:#000;
+
+}
